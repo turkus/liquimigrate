@@ -26,12 +26,12 @@ import os
 DB_DEFAULTS = {
     'postgresql': {
         'tag': 'postgresql',
-        'host': 'localhost',
+        'host': databases['default']['HOST'],
         'port': 5432,
     },
     'mysql': {
         'tag': 'mysql',
-        'host': 'localhost',
+        'host': databases['default']['HOST'],
         'port': 3306,
     },
 }
